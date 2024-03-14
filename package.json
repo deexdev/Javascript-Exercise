@@ -1,0 +1,21 @@
+{
+  "name": "javascript-exercise",
+  "version": "1.0.0",
+  "description": "javascript exercise",
+  "main": "problem4.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Dwi Prasetiyo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
