@@ -1,4 +1,4 @@
-function ubahHuruf(kata) {
+export const ubahHuruf = (kata) => {
     let huruf = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     let result =""
     for (let i = 0; i < kata.length; i++) {
@@ -17,10 +17,4 @@ function ubahHuruf(kata) {
     }
 
     return result;
-}
-
-console.log(ubahHuruf("SEPULSA OKE"));
-console.log(ubahHuruf("ALTERRA ACADEMY"));
-console.log(ubahHuruf("INDONESIA"));
-console.log(ubahHuruf("GOLANG"));
-console.log(ubahHuruf("PROGRAMMER"));
+};

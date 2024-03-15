@@ -1,18 +1,15 @@
-//Konversi Nilai
-function konversiNilai(nilai) {
+export const konversiNilai = (nilai) => {
     if (nilai < 0 || nilai > 100) {
-        console.log("nilai tidak valid");
+        return "nilai tidak valid";
     }else if(nilai <= 34){
-        console.log("D");
+        return "D";
     }else if(nilai <= 49){
-        console.log("C");
+        return "C";
     }else if(nilai <= 64){
-        console.log("B");
+        return "B";
     }else if(nilai <= 79){
-        console.log("B+");
+        return "B+";
     }else{
-        console.log("A");
+        return "A"
     }
-}
-
-console.log(konversiNilai(-100));
+}; 
